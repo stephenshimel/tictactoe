@@ -17,7 +17,7 @@
  */
 export function playNextTurn(currentTurns, position) {
   if (currentTurns.includes(position)) {
-    throw new Error("Position already played");
+    return null;
   }
   return [...currentTurns, position];
 }

@@ -5,6 +5,7 @@ export const Board = styled.div`
   flex-wrap: wrap;
   width: 320px;
   height: auto;
+  margin-top: 30px;
 `;
 
 export const Cell = styled.div`
@@ -16,4 +17,14 @@ export const Cell = styled.div`
   font-size: 30px;
   text-align: center;
   line-height: 100px;
+`;
+export const Info = styled.div`
+  text-align: center;
+  margin-top: 100px;
+  font-weight: 600;
+  font-size: 24px;
+`;
+
+export const RestarttButton = styled.button`
+  margin-top: 30px;
 `;
